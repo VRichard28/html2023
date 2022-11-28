@@ -1,0 +1,30 @@
+#p1,#p2{
+    color:red;
+}
+p{
+    color:green
+}
+.pblue{
+    color: blue;
+}
+.pfont{
+    font-size: 35px;
+}
+.pfont{
+    color:coral;
+}/*ultimul citit*/
+.pblue{
+    color:blue;
+}
+
+/**/
+div p{
+    color:crimson;
+}
+
+.iddiv .pdiv {
+    color: brown;
+}
+.iddiv > .pdiv{
+    color: aquamarine;
+}
