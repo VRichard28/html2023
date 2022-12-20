@@ -1,0 +1,11 @@
+.contentleft{
+    width: 70%;
+    float: left;
+    border:8px solid green;
+}
+.contentright{
+    width: 25%;
+    float:right;
+    border:8px solid red;
+    text-align: center;
+}

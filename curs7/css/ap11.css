@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 180px 0 0;
+
+
+}
+
+body {
+    background: rgb(145, 139, 19);
+    background: linear-gradient(90deg, rgba(145, 139, 19, 1) 0%, rgba(154, 15, 152, 0.9568160027682948) 62%, rgba(0, 148, 255, 1) 100%);
+}
+
+input {
+    width: 300%;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    border: solid 2px orange;
+
+}
+
+input:valid,
+textarea:valid {
+    border-color: red;
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: blue;
+}
+
+input:required + span::after,
+textarea:required + span::after {
+    position: relative;
+    content: " ( * ) ";
+}
